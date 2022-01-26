@@ -1,4 +1,5 @@
 @echo off
+echo building...
 pip install --upgrade pip
 pip install pyinstaller
 cd ..
