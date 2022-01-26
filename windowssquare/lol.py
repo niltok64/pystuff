@@ -1,0 +1,41 @@
+from turtle import *
+pendown()
+
+size = input("gimme da size of dem squar ")
+int(size)
+def square():
+  for i in range(4):
+    forward(int(size))
+    left(90)
+
+
+# script
+color('red')
+begin_fill()
+square()
+end_fill()
+penup()
+forward(int(size))
+pendown()
+color('green')
+begin_fill()
+square()
+end_fill()
+right(90)
+penup()
+forward(int(size))
+pendown()
+color('yellow')
+begin_fill()
+left(90)
+square()
+left(180)
+end_fill()
+penup()
+forward(int(size))
+pendown()
+color('blue')
+begin_fill()
+left(180)
+square()
+end_fill()
