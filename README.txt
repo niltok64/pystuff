@@ -1,5 +1,5 @@
-# pystuff
+PYSTUFF
 this is my python stuff L
 
-## building
+BUILDING
 use pyinstaller
